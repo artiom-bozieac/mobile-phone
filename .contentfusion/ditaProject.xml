@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="https://www.dita-ot.org/project">
+    <context id="CuNmcsgGKGSxfxP" name="Mobile Phone">
+        <input href="../mobilePhone.ditamap"/>
+    </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="Mobile_Phone_Manual_Testing-1697634910294" name="Mobile Phone Manual Testing">
+        <context idref="CuNmcsgGKGSxfxP"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="Mobile_Phone_Manual_Testing_PDF-1697636481489" name="Mobile Phone Manual Testing PDF">
+        <context idref="CuNmcsgGKGSxfxP"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
+    <deliverable id="Custom_template_WebHelp-1697637328041" name="Custom template WebHelp">
+        <context idref="CuNmcsgGKGSxfxP"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="Custom_template_PDF-1697637359341" name="Custom template PDF">
+        <context idref="CuNmcsgGKGSxfxP"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
+    </deliverable>
+</project>
